@@ -45,6 +45,9 @@
     max-height: 80%;
   }
   .footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
     background-color: black;
     color: rgb(255, 255, 255);
     width: 100%;    
@@ -69,8 +72,10 @@
   background-color: rgba(0, 0, 0, 0.934);
   }
   .footer{
-    position: relative;
-    top: 300px;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+    
     background-color: black;
     color: rgb(255, 255, 255);
     width: 100%;    
