@@ -205,136 +205,16 @@ let req = {
       content:
         "Heart attacks have become a rising cause of death these days. Your body gives you particular signals- you risk a heart attack. Here are some symptoms of a silent heart attack. We can see many young p… [+1987 chars]",
     },
-    {
-      source: {
-        id: null,
-        name: "News-Medical.Net",
-      },
-      author: null,
-      title:
-        "World Alzheimer’s Day 2022: Improving Post-Diagnosis Care with COGNISANCE - News-Medical.Net",
-      description:
-        "To commemorate World Alzheimer's Day, News-Medical speaks to Dr. Meredith Gresham, coordinator of COGNISANCE: Co-Designing Dementia Diagnosis And Post Diagnostic Care, about the project and post-dementia diagnosis care for patients and their families.",
-      url: "https://www.news-medical.net/news/20220921/World-Alzheimere28099s-Day-2022-Improving-Post-Diagnosis-Care-with-COGNISANCE.aspx",
-      urlToImage:
-        "https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_725009_16630782262296608.png",
-      publishedAt: "2022-09-21T07:45:00Z",
-      content:
-        "To commemorate World Alzheimer's Day, News-Medical speaks to Dr. Meredith Gresham, coordinator of COGNISANCE: Co-Designing Dementia Diagnosis And Post Diagnostic Care, about the project and post-deme… [+15301 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "Livelaw.in",
-      },
-      author: "LIVELAW NEWS NETWORK",
-      title:
-        "EWS Quota Case Hearing Day 5 - Live Updates From Supreme Court - Live Law - Indian Legal News",
-      description:
-        "SupremeCourt Constitution Bench to continue hearings on cases challenging the constitutional...",
-      url: "https://www.livelaw.in/top-stories/ews-quota-case-hearing-day-5-live-updates-from-supreme-court-209854",
-      urlToImage:
-        "https://www.livelaw.in/h-upload/2022/09/21/435976-366521-live-updates-sc.jpg",
-      publishedAt: "2022-09-21T07:30:17Z",
-      content:
-        "State of MP: Those in 16(4) have the same position as forward class minus the EWS. If EWS is held as valid, it'll be for both. \r\nCJI: So far as open category is concerned, you're reducing that from 5… [+9 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "India Today",
-      },
-      author: null,
-      title:
-        "James Webb Telescope damaged in space, science ops using key instrument paused - India Today",
-      description:
-        "The world's most powerful observatory has hit a technical glitch and science ops using its MIR instrument have been paused.",
-      url: "https://www.indiatoday.in/science/story/james-webb-telescope-damaged-in-space-science-ops-using-key-instrument-paused-2002829-2022-09-21",
-      urlToImage:
-        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202209/Jwst_22_2-647x363.jpeg?OInSTPctTFyIvnd1AGBv7NXcHGwp2ec0",
-      publishedAt: "2022-09-21T07:29:52Z",
-      content:
-        "Located 1,50,000 kilometers away from Earth, the James Webb Space Telescope is a marvel of engineering, but it remains vulnerable to the harsh space environment. The spacecraft has now run into a new… [+3157 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "NDTV News",
-      },
-      author: null,
-      title:
-        '230 Pilot Whales Stranded In Australia, "About Half" Feared Dead - NDTV',
-      description:
-        "A pod of 230 pilot whales was found stranded on the rugged west coast of Tasmania Wednesday, with Australian officials saying only half appeared to be alive.",
-      url: "https://www.ndtv.com/world-news/230-pilot-whales-stranded-in-australia-about-half-feared-dead-3363615",
-      urlToImage:
-        "https://c.ndtvimg.com/2022-03/19ukk8v8_new-zealand-whales-stranding-afp_625x300_18_March_22.jpg",
-      publishedAt: "2022-09-21T07:23:54Z",
-      content:
-        "Locals doused the whales with buckets of water to keep them alive. (Representational)\r\nSydney: A pod of 230 pilot whales was found stranded on the rugged west coast of Tasmania Wednesday, with Austra… [+2808 chars]",
-    },
-
-    {
-      source: {
-        id: null,
-        name: "The Tribune India",
-      },
-      author: "The Tribune India",
-      title:
-        "After Chandigarh University video leak case, now students protest at Phagwara's Lovely Professional University over one of them 'dying by suicide' - The Tribune India",
-      description:
-        "A protest broke out on the Lovely Professional University campus near here on Tuesday night after a student allegedly died by suicide in the hostel.",
-      url: "https://www.tribuneindia.com/news/jalandhar/amid-cu-videos-leak-row-late-night-protest-in-lovely-professional-university-allegedly-over-student-committing-suicide-433845",
-      urlToImage:
-        "https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/9/2022_9$largeimg_274135819.jpg",
-      publishedAt: "2022-09-21T06:24:00Z",
-      content:
-        "The Tribune, now published from Chandigarh, started publication on February 2, 1881, in Lahore (now in Pakistan). It was started by Sardar Dyal Singh Majithia, a public-spirited philanthropist, and i… [+505 chars]",
-    },
-    {
-      source: {
-        id: null,
-        name: "NDTV News",
-      },
-      author: null,
-      title:
-        "Livestreaming Of Supreme Court Constitution Bench Hearings From Next Week - NDTV",
-      description:
-        "People will be able to watch proceedings in major cases such as challenge to Citizenship Amendment Act and quota to Upper Castes on economic basis",
-      url: "https://www.ndtv.com/india-news/livestreaming-of-supreme-courts-constitution-bench-hearings-to-begin-next-week-3363180",
-      urlToImage:
-        "https://c.ndtvimg.com/2021-04/hmt8eqi8_supreme-court-_650x400_30_April_21.jpg",
-      publishedAt: "2022-09-21T06:22:00Z",
-      content:
-        "New Delhi: The Supreme Court will livestream all Constitutional Bench hearings from September 27 on its website, which means anyone can watch the proceedings in cases such as challenges to the Citize… [+3432 chars]",
-    },
   ],
 };
 
 let singleCard = document.getElementById("cont");
 let source = req.articles;
 let newsHtml = "";
+let singleHeadline = document.getElementById("singleHeadline");
+let headlineHtml = "";
 source.forEach((element) => {
-  let singleNews = ` <div class="card">
-  <img src=${element.urlToImage} class="card-img-top" alt=${element.title} />
-  
-  <div class="card-body text-center">
-    <h5 class="card-title">${element.title.slice(0, 50)}...</h5>
-    <p class="card-text">${
-      element.description !== null
-        ? element.description.slice(0, 150)
-        : element.description
-    }...</p>
-    <a
-      href=${element.url}
-      rel="noreferrer"
-      target="_blank"
-      class="btn btn-danger "
-    >
-      Read More....
-    </a>          
-  </div>
-</div> `;
-  newsHtml += singleNews;
+  let eachSingleHeadline = `<div class="hlines" style="border-bottom: 2px solid grey;"><b>${element.title}</b></div>`;
+  headlineHtml += eachSingleHeadline;
 });
-singleCard.innerHTML = newsHtml;
+singleHeadline.innerHTML = headlineHtml;

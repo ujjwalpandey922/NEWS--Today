@@ -1,17 +1,254 @@
-*{
-    box-sizing: border-box;
+html, body{
+  overflow:initial !important;
+}
+
+.navlink1::before{
+  content: "ANSWERS VIA MAIL";
+  display: block;
+  font-weight: bold;
+  font-size: x-small;
+  color: grey;
+}
+.subs::after{
+  content: "1 Year for 1$";
+  display: block;
+  font-weight: bold;
+  font-size: small;
+  
+  color: rgb(50, 49, 49);
+}
+.dot {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(5, 18, 204);
+  border-radius: 50%;
+  display: inline-block;
+}
+.collapse>ul>li{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  border-top: 9px solid rgb(188, 82, 249);
+  cursor: pointer;
+  color: black;
+  margin-top: 0px;
+  position: relative;
+  float:left
+}
+.subs{
+  color: rgb(0, 26, 255);
+}
+.blackNavbar{
+  display: flex;
+}
+.uiBlackNavbar{
+  display: flex;
+  list-style: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  justify-content: space-evenly;
+}
+span{
+  color: black;
+}
+.main{
+  position: relative;
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+}
+.headline{
+  margin-top: 40px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right:0 ;
+  border-left: 2px solid grey;
+}
+.hlines{
+  font-size: small;
+  text-align: left;
+  margin: 15px 25px;
   
 }
-.video{
-    min-width: 100%;
-    min-height: 100%;
+.stories{
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  grid-gap: 8px ;
+
 }
-  #myVideo {
- position: relative;
- max-width: 100%;
- max-height: 100%;
-  overflow: hidden; 
-  }
+.bigDiv>p,h5{
+  padding: 10px;
+  margin-top: 5px;
+}
+.bigDiv{
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+.four{
+  grid-row: 3/6;
+}
+
+.five > img{
+  width: 250px;
+  height: 140px;
+}
+.five{
+ display: flex;
+}
+.five>span{
+  padding: 0 5px;
+  text-align: start;
+}
+.restOfPage{
+  width: 60%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+#myVideo{
+  width: 100%;
+}
+.headlines{
+  font:italic 700 32px/34px
+   'Georgia Pro',Georgia,'Droid Serif',serif;
+}
+.headlines::after{
+    content: '';
+    display: block;
+    height: 10px;
+    margin-top: -12px;
+    background: #b9e1ff;
+}
+.singleTopStories::after{
+    content: '';
+    display: block;
+    height: 1px;
+   
+    margin-top: 0px;
+    background: #181818;
+}
+
+.card-text{
+  padding: 5px;
+}
+.singleTopStories{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  justify-content: space-evenly;
+}
+.singleTopStories>img{
+  max-width: 125px;
+}
+.listSingleTopStories{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+.poster,.poster >img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.discoverSingle>img{
+  max-width: 220px;
+  margin: 20px 0 ;
+}
+.discover{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.Trump{
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  color: whitesmoke;
+  background-color: #0a2149;
+}
+.Trump>div{
+  margin: 10px;
+  align-items: center;
+}
+.singleSubscribers::before{
+  content: "For Subscribers";
+  font-size: large;
+  position: absolute;
+  margin: 0 5px;
+  width: 150px;
+  text-align: center;
+  left: -10px;
+  top: -18px;
+    background-color: #f7f8fa;
+    color: rgb(0, 35, 66);
+}
+.Subscribers{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 50px;
+  font-weight: bold;
+  padding: 15px;
+  border-top: 6px solid blue;
+  border-right: 6px solid blue;
+}
+.Subscribers>ul::after{
+  list-style: none;
+ 
+}
+.Subscribers>ul>li::after{
+  
+  content: '';
+    display: block;
+    height: 1px;
+   
+    margin-top: 0px;
+    background: #181818;
+}
+.NFL{
+  border-top: 6px solid rgb(255, 34, 0);
+  border-right: 6px solid rgb(255, 34, 0);
+}
+.Money{
+  border-top: 6px solid rgb(0, 255, 17);
+  border-right: 6px solid rgb(0, 255, 17);
+}
+.Orange{
+  border-top: 6px solid rgb(255, 153, 0);
+  border-right: 6px solid rgb(255, 153, 0);
+}
+.pink{
+  border-top: 6px solid rgb(255, 0, 238);
+  border-right: 6px solid rgb(255, 0, 238);
+}
+.footerListItems{
+  display: flex; 
+  justify-content: space-around;
+  margin: 20px;
+}
+.footerListItems>div>ul>li{
+  margin: 5px;
+}
+.stayConnected>ul,.ourPartners>ul,.support>ul,.about>ul{
+  list-style: none;
+  text-align: start;
+ 
+}
+
+
+
   .container{
    display: flex;
    flex-wrap:wrap ;
@@ -23,7 +260,7 @@
      top: 60px;
      left: 60px;
      color: rgb(4, 44, 78);
-    background-color: rgba(1, 4, 4, 0.785);
+    background-color: rgba(27, 107, 107, 0.785);
     overflow:auto;
     scrollbar-width: none;
   }
@@ -31,36 +268,27 @@
     display: none;  
 }
 
-  .card{
-    margin: 5px 15px;
-    padding: 5px;
-    max-width: 30%;
-     max-height: 80%; 
-     background-color: rgba(0, 119, 255, 0.553);
-     color: rgb(222, 233, 241);
-  }
+  
   img{
-    border: 2px solid black;
+  
     max-width: 100%;
     max-height: 80%;
   }
   .footer{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    width: 100%;    
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 100%;  
+    text-align: center;  
+    margin-bottom: 100px;
   }
+
   p{
     margin: 0% ;
     margin-top:  -6px;
     padding: 0%;
   }
   @media (max-width:800px) {
-    .video{
-      width: 100%;  
-  }
+    
   .card{    
     max-width: 70%;
     padding-top: 10px;
